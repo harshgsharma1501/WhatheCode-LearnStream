@@ -1,0 +1,66 @@
+/* General Container */
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Common Section Styling */
+.section {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Left Section Styling */
+.left {
+  background: linear-gradient(to right, #e6f4f1, #ffffff);
+}
+
+.right {
+  background: linear-gradient(to left, #ffffff, #f9f9f9);
+}
+
+/* Titles */
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.extra-info a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.extra-info a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+.login-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.login-btn:hover {
+  background-color: #218838;
+}
